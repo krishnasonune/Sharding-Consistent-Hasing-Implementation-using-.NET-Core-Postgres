@@ -1,0 +1,7 @@
+sharding/.vscode
+sharding/bin
+sharding/obj
+sharding/appsettings.Development.json
+sharding/appsettings.json
+.docker-compose.yml.swp
+.gitignore.swp

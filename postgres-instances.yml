@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  postgresshard1:
+    build:
+      context: .
+    container_name: pgshard1
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+    ports:
+      - "5433:5432"
+
+  postgresshard2:
+    build:
+      context: .
+    container_name: pgshard2
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+    ports:
+      - "5434:5432"
+
+  postgresshard3:
+    build:
+      context: .
+    container_name: pgshard3
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+    ports:
+      - "5435:5432"
+
