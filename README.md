@@ -9,7 +9,7 @@ Implementation of concept sharding using Postgres and using consistent hashing m
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/krishnasonune/Sharding-Consistent-Hasing-Implementation-using-.NET-Core-Postgres.git
 ```
 
 Go to the project directory
